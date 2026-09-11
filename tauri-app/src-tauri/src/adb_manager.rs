@@ -67,6 +67,7 @@ pub fn find_adb() -> Option<PathBuf> {
             "/usr/bin/adb".to_string(),
             "/usr/local/bin/adb".to_string(),
             "/opt/android-sdk/platform-tools/adb".to_string(),
+            "/opt/homebrew/bin/adb".to_string(),
         ]
     };
 
